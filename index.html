@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+        header #tituloscabecera{font-family: "Lobster";
+        text-align: center;
+        }
+        #tituloscabecera h1{
+            color: yellow;
+        }
+        #tituloscabecera h2{
+            color: white;
+        }
+        *{
+            margin: 0;
+            box-sizing: border-box;
+        }
+        header{
+            height: 300px;
+            background-image: url(images/horizonte.jpg);
+            background-size: 100% 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        nav{
+            display: flex;
+            background-color: red;
+            padding: 20px;
+            justify-content: space-around;
+        }
+        nav a:hover{
+            color: yellow;
+            font-weight: bold;
+        }
+        body, html {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    background-image: url('images/ecologia.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+}
+
+main h2 {
+    text-align: center;
+    margin: 20px 0;
+}
+
+
+section {
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+article {
+    height: 50%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+
+#bordeverde {
+    border: 4px solid green;
+    border-radius: 15px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+
+#bordeverde img {
+    height: 100%;
+    float: right;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    margin-right: 10px;
+    
+}
+
+
+p {
+    text-align: justify;
+    margin: 0;
+}
+
+footer {
+    background-color: lightgrey;
+    height: 105px;
+    padding-top: 43px;
+    text-align: center;
+    box-sizing: border-box;
+}
+    </style>
+</head>
+<body>
+    <header>
+        <div id="tituloscabecera">
+            <h1>Eco:Bussines</h1>
+            <h2>Rentabilidad y medio ambiente</h2>
+        </div>
+    </header>
+    <nav>
+        <a href="#">Quienes somos</a>
+        <a href="#">Contratacion</a>
+        <a href="#">Formacion</a>
+    </nav>
+    <main>
+        <h2 style="text-align: left; padding: 10px; font-size: 18px; color: green;">Nuestros Proyectos</h2>
+        <section>
+            <article>
+                <div id="bordeverde">
+                    <img src="images/girasol.jpg" alt="Imagen de girasol">
+                    <p style="padding: 10px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse voluptatem atque, a quo cupiditate rerum unde architecto quasi. Aperiam molestiae, pariatur dolorem nihil delectus iste assumenda soluta nobis nostrum possimus!</p>
+                </div>
+            </article>
+            <article>
+                <div id="bordeverde">
+                    <img src="images/girasol.jpg" alt="Imagen de girasol">
+                    <p style="padding: 10px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam obcaecati voluptatum, quidem illo ad amet dolorum culpa praesentium sit officia sint modi impedit consectetur maxime nostrum veniam, numquam quas? Magnam. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius illo perferendis nam, nostrum nemo facere doloremque ipsam esse explicabo consequatur obcaecati adipisci ipsum consectetur eveniet maiores! Perferendis ratione ut nesciunt?</p>
+                </div>
+            </article>
+        </section>
+        <footer style="padding-bottom: 5px;">
+            <p style="text-align: center; padding-bottom: px;">&copy; 2024. I.E.S Juan Bosco.</p>
+        </footer>
+    </main>
+</body>
+</html>
